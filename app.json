@@ -1,12 +1,23 @@
 {
-  "expo":{
-    "name":"محل الألبان",
-    "slug":"mahal-alban",
-    "version":"1.0.0",
-    "orientation":"portrait",
-    "userInterfaceStyle":"light",
-    "scheme":"mahalalban",
-    "plugins":["expo-router"],
-    "android":{"package":"com.mahalalban.app"}
+  "expo": {
+    "name": "محل الألبان",
+    "slug": "mahal-alban",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "mahalalban",
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "android": {
+      "package": "com.mahalalban.app"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0761b7ae-3287-46a4-84f7-dfe17329618d"
+      }
+    }
   }
 }
